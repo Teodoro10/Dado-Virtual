@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dado Virtual</title>
-    <link rel="icon" href="/imgs/cassino.png">
-    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Poppins:wght@400;500&family=Rubik:ital,wght@1,500&family=Ubuntu&family=Unbounded:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/reset.css">
-</head>
-<body>
+    <link rel="icon" href="/imgs/cassino.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Poppins:wght@400;500&family=Rubik:ital,wght@1,500&family=Ubuntu&family=Unbounded:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+  </head>
+  <body>
     <main>
-    <h1 id="titulo">Dado Virtual</h1>
-    
-    <button id="Btsortear">Sortear</button>
-    <div class="dado">
+      <h1 id="titulo">Dado Virtual</h1>
+
+      <button id="Btsortear">Sortear</button>
+      <div class="dado">
         <figure id="img">
-            <img src="/imgs/0.png" alt="imagem do dado com interrogação no meio" id="dado_imgs">
+          <img
+            src="/imgs/0.png"
+            
+            id="dado_imgs"
+          />
         </figure>
-    </div>
- 
-</main>
-</body>
-<script src="/js/main.js"></script>
+      </div>
+      <audio
+        preload
+        id="rolando"
+        src="/audio/rolando.mp3"
+        type="audio/mpeg"
+      ></audio>
+    </main>
+  </body>
+  <script src="/js/main.js"></script>
 </html>
