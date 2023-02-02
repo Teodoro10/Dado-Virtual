@@ -1,0 +1,30 @@
+*{
+    font-family: 'Unbounded', cursive
+}
+#titulo{
+    font-size: 2rem;
+    color: blue;
+    text-align: center;
+    margin-top: 2%;
+}
+.dado{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 2rem;
+}
+#img{
+    text-align: center;
+    
+}
+#Btsortear{
+    color: white;
+    background-color: black;
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 10px 10px;
+    margin-left: 42%;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
